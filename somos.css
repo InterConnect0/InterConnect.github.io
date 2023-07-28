@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ef8c5b;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #ef8c5b;
+}
+
+.Inter {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.Inter-content {
+    text-align: center;
+}
+
+.Inter-content h2 {
+    font-size: 45px;
+    line-height: 50px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 18px;
+    color: #414247;
+    padding: 0 52px;
+    margin-bottom: 35px;
+    text-align: justify;
+
+}
+
+.Inter-group {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+
+.Inter-1 {
+    padding: 0 16px;
+}
+
+.Inter-1 img {
+    width: 150px;
+    justify-content: right;
+}
+
+.Inter-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Inter-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+
+@media(max-width: 991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .Inter {
+        padding: 30px;
+    }
+
+    .Inter-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .Inter-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .Inter-img {
+        display: none;
+    }
+
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}

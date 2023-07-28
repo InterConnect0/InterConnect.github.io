@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="regis.css">
+    <link rel="shortcut icon" href="img/user-regular-24.png" type="image/x-icon">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Registrarse</h2>
+                    <div class="inputbox">
+                        <ion-icon name="user"></ion-icon>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="nombre">Nombre</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" id="apellido" name="apellido" required>
+                        <label for="apellido">Apellido</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" id="correo" name="correo" required>
+                        <label for="correo">Correo</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="contrasena" name="contraseña" required>
+                        <label for="contraseña">Contraseña</label>
+                    </div>
+                    <div class="inputbox">
+                        <select id="pregunta" name="pregunta" required>
+                            <option class="option" value="" disabled selected>Selecciona una pregunta</option>
+                            <option class="option" value="1">¿Cuál es el nombre de tu mascota?</option>
+                            <option class="option" value="2">¿Cuál es tu color favorito?</option>
+                            <option class="option" value="3">¿Cuál es tu pelicula favorita?</option>
+                            <option class="option" value="4">¿Cuál es tu comida favorita?</option>
+                        </select>
+                    </div>
+                    <div class="forget">
+                        <label for="respuesta">Respuesta</label>
+                        <input type="text" id="respuesta" name="respuesta" required>
+                    </div>
+                    <button><a href="iniciarsesion.html">Registrarse</a></button> 
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
